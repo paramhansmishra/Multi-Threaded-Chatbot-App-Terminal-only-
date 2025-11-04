@@ -5,7 +5,7 @@ Tries OpenRouter (free-tier proxy to models like DeepSeek, Gemini, Mistral).
 If no API key or no internet, uses a local text-generation stub so the bot
 keeps talking gracefully.
 """
-#Key - setx OPENROUTER_API_KEY"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"
+#Key - setx OPENROUTER_API_KEY"sk-or-v1-xxxxx....." --> make your own key. I wont gib you mine >_<
 import os, requests
 
 # optional: set OPENROUTER_API_KEY as an environment variable once
